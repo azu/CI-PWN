@@ -1,2 +1,6 @@
 script:
-  - echo "$(TRAVIS_BRANCH)"
+- echo "$(TRAVIS_BRANCH)"
+- sh script.sh
+env:
+  global:
+    secure: BEd/FUJF41tbOTAxgrmX9pwLYVw+qLJtTfZgNS81Hq8p+ljNked+LAXJDS9FcS04DD6tiA7QV75SYO1S0hdqqHnlwzFusT973+n3cX2j1sEGBVbrgmSi5D1IAcDE6IHh6rfxiGeGu/88sDP+C2uGoxsxHgorA69payKhkorXCOI=
